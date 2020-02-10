@@ -1,0 +1,16 @@
+azure:
+  activedirectory:
+    tenant-id: a805eb36-3833-4902-88c2-5cb74b2cbcbf
+    active-directory-groups: group1, group2
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          azure:
+            client-id: b19a6e57-ea73-49f9-9a00-37a76b8781ef
+            client-secret: 2Mdp73zxsRQ/?wjOmos:zi3qGsT?=d2U
+            redirect-uri: http://localhost:8080/login/oauth2/code/azure
+#            redirect-uri: http://localhost:8080
+
